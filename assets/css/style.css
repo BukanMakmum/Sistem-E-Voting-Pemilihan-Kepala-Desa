@@ -1,0 +1,282 @@
+.dataTables_length > select[multiple], select[size] {
+    height: 35px;
+    padding: 7px;
+}
+
+.dataTables_length{
+	float: left;
+}
+
+.dataTables_filter{
+	float: right;
+}
+
+.table-datatable{
+	margin: 10px 0px 50px 0px;	
+}
+
+#DataTables_Table_0 {
+    border-top: 1px solid #c8c8c8;
+}
+
+.dataTables_wrapper{
+	padding-bottom: 100px;
+}
+
+.table-responsive{
+	padding: 10px;	
+}
+
+.panel-voting .panel-body{	
+	padding-bottom: 200px;
+}
+
+.nomor-urut{	
+	text-align: center;		
+	font-size: 12pt;	
+}
+
+ .block-title {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 0px;
+    border-bottom: 3px solid #D10000;
+  }
+  .block-title span {
+   background-color: #D10000;
+   padding : 8px 8px 0 8px;
+   color : #fff;
+   line-height: 27px;
+  display: inline-block;
+  }
+  .block-title-blue {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 0px;
+    border-bottom: 3px solid #1E90FF;
+  }
+  .block-title-blue span {
+   background-color: #1E90FF;
+   padding : 8px 8px 0 8px;
+   color : #fff;
+   line-height: 27px;
+  display: inline-block;
+  }
+  .block-title-crimson{
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 0px;
+    border-bottom: 3px solid #DC143C;
+  }
+  .block-title-crimson span {
+   background-color: #DC143C;
+   padding : 8px 8px 0 8px;
+   color : #fff;
+   line-height: 27px;
+  display: inline-block;
+  }
+  .block-title-green {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 0px;
+    border-bottom: 3px solid #008000;
+  }
+  .block-title-green span {
+   background-color: #008000;
+   padding : 8px 8px 0 8px;
+   color : #fff;
+   line-height: 27px;
+  display: inline-block;
+  }
+  .block-title-indigo {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 0px;
+    border-bottom: 3px solid #4B0082;
+  }
+  .block-title-indigo span {
+   background-color: #4B0082;
+   padding : 8px 8px 0 8px;
+   color : #fff;
+   line-height: 27px;
+  display: inline-block;
+  }
+    .block-title-pink {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    margin-top: 0px;
+    border-bottom: 3px solid #FF69B4;
+  }
+  .block-title-pink span {
+   background-color: #FF69B4;
+   padding : 8px 8px 0 8px;
+   color : #fff;
+   line-height: 27px;
+  display: inline-block;
+  }
+  
+ 
+ .share-btn {
+	display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    width: 4em;
+    opacity: 0.9;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+    outline: none;
+    text-align: center;
+}
+.share-btn:hover {
+    color: #eeeeee;
+	
+}
+.share-btn:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+    color: #e2e2e2;
+    outline: none;
+}
+
+.share-btn.twitter { background: #55acee; }
+.share-btn.google-plus { background: #dd4b39; }
+.share-btn.facebook { background: #3B5998; }
+.share-btn.stumbleupon { background: #EB4823; }
+.share-btn.reddit { background: #ff5700; }
+.share-btn.linkedin { background: #4875B4; }
+.share-btn.pinterest { background: #AB0909; }
+.share-btn.email { background: #444444; }
+
+
+
+/* overlay pada gambar */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #00BFFF;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/* tombol halaman posting */
+.center {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #1E90FF;}
+
+.example1 {
+    background-image: url(../images/kalender.png), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+
+/* pemotongan halaman ketika di print */
+.pagebreak { 
+page-break-before: always; 
+}
+
+/* background halaman */
+.backgroudx {
+    background-image: url('../../images/opsi/kacapembesar.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center right;
+   
+}
+.backgroudx1 {
+    background-image: url('../../images/opsi/calendar3.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom left;
+   
+}
+.backgroudx2 {
+    background-image: url('../../images/opsi/vote.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center right;
+   
+}
+.backgroudx3 {
+    background-image: url('../../images/opsi/sidikjari.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top left;
+   
+}
+
+/* Font Jadwal*/
+@font-face {
+  font-family: 'DSDIGI';
+  src: url('../fonts/DSDIGI.eot');
+  src: local('DSDIGI'), url('../fonts/DSDIGI.woff') format('woff'), url('../fonts/DSDIGI.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1091">Text with this font applied</p> */
+#fontsforweb_fontid_1091 {
+  font-family: 'DSDIGI' !important;
+}
+
+
+/* css background dan font text berjalan dengan perintah panggilan <marquee class="hakko" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" >text berita</marquee> */
+.hakko {
+    background-color: #00BFFF;
+    color: #F0F8FF;
+    font-family: roboto;
+}
